@@ -4,7 +4,7 @@ class ComplementsMod(loader.Module):
 
     strings = {"name": "Hope"}
 
-    async def сдcmd(self, message: Message):
+    async def hdcmd(self, message: Message):
         """Эта команда дарит счастье девушке"""
 
         for i in [
@@ -24,7 +24,7 @@ class ComplementsMod(loader.Module):
             message = await utils.answer(message, i)
             await asyncio.sleep(1)
 
-    async def спcmd(self, message: Message):
+    async def hbcmd(self, message: Message):
         """Эта команда дарит счастье парню"""
 
         for i in [
